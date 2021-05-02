@@ -12,7 +12,6 @@ const MainTemplate = () => {
       <div className="description">{description}</div>
       <div className="button-box">
         <button
-          className="play-button"
           onMouseOver={() => setDescription("1인용 오델로 게임입니다.")}
           onMouseOut={() =>
             setDescription("오델로 게임에 오신 것을 환영합니다!!!")
@@ -21,7 +20,6 @@ const MainTemplate = () => {
           <Link to="/classic">Play Game</Link>
         </button>
         <button
-          className="rule-button"
           onMouseOver={() => setDescription("오델로의 규칙입니다.")}
           onMouseOut={() =>
             setDescription("오델로 게임에 오신 것을 환영합니다!!!")
